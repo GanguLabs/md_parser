@@ -1,0 +1,28 @@
+{
+  "name": "Roam_to_Obsidian",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@textlint/markdown-to-ast": "^12.0.2",
+    "ast-to-markdown": "^1.0.0",
+    "fs": "*",
+    "marked-ast": "^0.3.0",
+    "marked-ast-markdown": "^2.1.0",
+    "rehype-parse": "^7.0.1",
+    "rehype-remark": "^8.1.1",
+    "rehype-stringify": "^8.0.0",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1",
+    "remark-parse": "^9.0.0",
+    "remark-rehype": "^8.1.0",
+    "remark-stringify": "^9.0.1",
+    "unified": "^9.2.1"
+  }
+}
