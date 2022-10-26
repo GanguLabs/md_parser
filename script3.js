@@ -19,7 +19,7 @@ var fs = require('fs')
 var unified = require('unified')
 var html = require('rehype-parse')
 var rehype2remark = require('rehype-remark')
-var stringify = require('remark-stringify')
+var stringify = require('rehype-stringify')
 
 var processor = unified()
     .use(html)
